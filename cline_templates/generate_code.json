@@ -1,0 +1,13 @@
+{
+  "task": "generate_project",
+  "description": "Generate full project based on blueprint",
+  "input_blueprint": "blueprint.json",
+  "output_folder": "generated_project/",
+  "rules": [
+    "Create Next.js frontend",
+    "Create Flask backend",
+    "Use SQLite DB",
+    "Generate one working page",
+    "Generate one working route"
+  ]
+}

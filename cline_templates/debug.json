@@ -1,0 +1,7 @@
+{
+  "task": "debug_project",
+  "description": "Fix issues in project",
+  "input": "generated_project/",
+  "tests": ["test_basic.py"],
+  "rules": ["Identify error", "Apply fix", "Re-run tests"]
+}
